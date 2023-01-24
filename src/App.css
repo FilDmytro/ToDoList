@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+
+.wrapper {
+    width: 470px;
+    background-color: grey;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:  25px 20px;
+    outline: none;
+    font-family: 'Shadows Into Light', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input{
+    width: 400px;
+}
+.btn{
+    width: 60px;
+    cursor: pointer;
+}
+.btn:hover{
+    width: 60px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: blue;
+}
+.list-style{
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+.list-item{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px 10px;
+    word-wrap: break-word;
+}
+.task-text{
+    width: 400px;
+    margin-left: 2px;
+    font-size: 32px;
+}
+.submit{
+    width: 28px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.submit:hover {
+    color: green;
+    transition: all 0.3s;
+}
+.cancel{
+    width: 28px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.cancel:hover {
+    color: darkred;
+    transition: all 0.3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.complete {
+    text-decoration: line-through;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    margin: 20px;
+    color: silver;
+    font-size: 48px;
 }
