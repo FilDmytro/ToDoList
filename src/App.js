@@ -15,10 +15,13 @@ const AppWrapperStyled = styled.div({
   display: 'flex',
   justifyContent: 'center',
   textAlign: 'center',
-  height: "100vh",
+  width: 'auto',
+  height: "auto",
+  minHeight: "100vh",
   background: "silver",
   padding: "0px",
   margin: "0px",
+  outline: "none",
 });
 
 
